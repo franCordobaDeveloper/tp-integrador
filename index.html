@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fran Dev</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container">
+            <a href="#" class="brand">Fran Dev</a>
+            <ul class="nav-links">
+                <li class="active"><a href="#">Inicio</a></li>
+                <li><a href="#organizacion1">organizacion</a></li>
+                <li><a href="#contenedor">ceo</a></li>
+                <li><a href="#contact">contacto</a></li>
+            </ul>
+
+            <div class="hamburger active">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- //Navbar-->
+
+    <!-- Hero -->
+    <div id="hero">
+        <div class="container">
+            <h1 class="heading-xl"><span id="hero-titles"></span></h1>
+        </div>
+    </div>
+    <!-- //Hero -->
+
+    <!-- organizacion -->
+    
+    <section id="organizacion1">
+       <div class="organizacion">
+            <h3>empresa de desarrollo web </h3>
+            <h2>equipo de profesionales altamente calificados</h2>
+            <p class="descripcion">Bienvenidos a Fran Dev empresa de Diseño Web, donde nos apasiona ayudar a nuestros 
+            clientes a crear sitios web increíbles y funcionales que impulsen su presencia en línea. C
+            on un equipo de expertos en diseño web y desarrollo, ofrecemos soluciones personalizadas para satisfacer 
+            las necesidades de nuestros clientes y alcanzar sus objetivos en línea.</p>
+       </div>
+       <img class="img-org" src="./img/meeting-1015616_1280.webp" alt="organizacion">
+    </section>
+
+    <!-- //Servicios -->
+
+    <!-- Tarjeta de Presentación-->
+    <div class="contenedor" id="contenedor">
+		<section class="tarjeta">
+			
+			<section class="slider_info">
+				<!-- Flechas del Slider -->
+				<a href="#" id="info-prev" class="flecha-info anterior" ><span class="fa fa-chevron-left"></span></a>
+				<a href="#" id="info-next" class="flecha-info siguiente"><span class="fa fa-chevron-right"></span></a>
+
+				<section class="informacion" id="informacion">
+					<article id="info">
+						<div class="slide active">
+							<h1 class="nombre"> Francisco Córdoba </h1>
+							<p class="trabajo">Desarrollador Web</p>
+							<p class="pais"><img class="img-arg" src="img/2634348_argentina_ensign_flag_nation_icon.png" alt="Bandera Argentina">Argentina</p>
+						</div>
+					
+						<div class="slide">
+							<h2 class="subtitulo">Habilidad Técnica HTML5</h2>
+							<p class="texto">HTML5 es la última versión del lenguaje de marcado de hipertexto (HTML) utilizado para crear páginas web. Introducido en 2014, HTML5 ha traído consigo muchas características y mejoras emocionantes para el desarrollo web.</p>
+						</div>
+
+						<div class="slide">
+							<h2 class="subtitulo"> Habilidad Técnica CSS3 </h2>
+							<p class="texto">CSS3 es la última versión del lenguaje de hojas de estilo en cascada (CSS) utilizado para controlar la apariencia y presentación de páginas web. Introducido en 1999, CSS3 ha ampliado significativamente las capacidades de diseño web.</p>
+						</div>
+
+                        
+					</article>
+					<div class="botones" id="botones"></div>
+				</section>
+
+			</section>
+			<section class="redes-sociales">
+				<a href="#" class="instagram"><span class="fa fa-instagram"></span></a>
+				<a href="https://github.com/franCordobaDeveloper" class="github" target="_blank"><span class="fa fa-github"></span></a>
+				<a href="#" class="twitter"><span class="fa fa-twitter"></span></a>
+			</section>
+		</section>
+	</div>
+    <!-- // Tarjeta de Presentación-->
+
+    <!-- Formulario de Contacto -->
+     <!-- Contact -->
+     <section id="contact">
+        <div class="container">
+            <div class="grid">
+                <div class="contact-info">
+                    <div class="section-intro">
+                        <h1 class="heading-2">Informacion De Contacto</h1>
+                    </div>
+                    <div class="contact-widget">
+                        <h3 class="heading-3">Email</h3>
+                        <ul>
+                            <li>fran.cordoba.dev@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="contact-widget">
+                        <h3 class="heading-3">Celular</h3>
+                        <ul>
+                            <li>+543813059586</li>
+                        </ul>
+                    </div>
+    
+                </div>
+                <div class="contact-form">
+                    <div class="section-intro">
+                        <h1 class="heading-2">Deje su Mensaje</h1>
+                    </div>
+                    <form action="#">
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" placeholder="ejemplo@gmail.com" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="" rows="5" class="form-input" placeholder="Mensaje..." required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn">Enviar Mensaje</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // Formulario de Contacto -->
+
+    <!-- ScriptJs-->
+    <!-- Load library from the CDN Typed Js-->
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
